@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { IconArrowLeft, IconTemperature, IconTemperatureCelsius, IconTemperatureFahrenheit, IconTrash } from '@tabler/icons-react';
+import { IconTemperature, IconTemperatureCelsius, IconTemperatureFahrenheit } from '@tabler/icons-react';
 import { IconSun as Clear } from '@tabler/icons-react'
 
 export default function WeatherApp(props) {

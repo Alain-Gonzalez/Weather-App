@@ -6,7 +6,7 @@
 
 body {
     font-family:  'Roboto', sans-serif;
-    background-image: url('https://images.pexels.com/photos/267025/pexels-photo-267025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('/img/background.jpeg');
     background-size: cover;
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -127,12 +127,12 @@ input, label {
 
 .weatherContent {
     
-    margin: 25px auto 50px;
+    margin: 25px 50px 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     min-height: 300px;
-    gap: 1rem;
+    gap: 3rem;
 
 
 }
@@ -157,50 +157,50 @@ h1 {
 }
 
 .Clouds {
-    background-image: url("https://images.pexels.com/photos/11326637/pexels-photo-11326637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/clouds.jpeg");
 }
 
 .Snow {
-    background-image: url("https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+    background-image: url("/img/snow.jpeg")
 }   
 .Clear {
-    background-image: url("https://images.pexels.com/photos/96622/pexels-photo-96622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+    background-image: url("/img/clear.jpeg")
 }  
 .Mist {
-    background-image: url("https://images.pexels.com/photos/1743392/pexels-photo-1743392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/mist.jpeg");
 }
 .Thunderstorm {
-    background-image: url("https://images.pexels.com/photos/9751579/pexels-photo-9751579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/thunderstorm.jpeg");
 }
 .Drizzle {
-    background-image: url("https://images.pexels.com/photos/6832327/pexels-photo-6832327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/drizzle.jpeg");
 }
 .Rain {
-    background-image: url("https://images.pexels.com/photos/3387175/pexels-photo-3387175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/rain.jpeg");
 }
 .Smoke {
-    background-image: url("https://images.pexels.com/photos/10963545/pexels-photo-10963545.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/smoke.jpeg");
 }
 .Haze {
-    background-image: url("https://images.pexels.com/photos/3408552/pexels-photo-3408552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/haze.jpeg");
 }
 .Dust {
-    background-image: url("https://images.pexels.com/photos/20045/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/dust.jpg");
 }
 .Fog {
-    background-image: url("https://images.pexels.com/photos/978844/pexels-photo-978844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/fog.jpeg");
 }
 .Sand {
-    background-image: url("https://images.pexels.com/photos/1731660/pexels-photo-1731660.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/sand.jpeg");
 }
 .Ash {
-    background-image: url("https://images.pexels.com/photos/4070727/pexels-photo-4070727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/ash.jpeg");
 }
 .Squall {
-    background-image: url("https://images.pexels.com/photos/1530423/pexels-photo-1530423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/squall.jpeg");
 }
 .Tornado {
-    background-image: url("https://images.pexels.com/photos/10956169/pexels-photo-10956169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("/img/tornado.jpeg");
 }
 
 .weatherFileText {

@@ -11,20 +11,13 @@ export default function App(props) {
     
     const apiKey = import.meta.env.VITE_API_KEY;
 
-    const [cities, setCity] = useState([]);
     const [inputText, setInputText] = useState("");
     const [mesureSytem, setMesureSystem] = useState("metric")
-    const [uniqueKey, setUniqueKey] = useState("");
-    const [onLoading, setOnLoading] = useState(true);
 
     const [weatherList, setWeatherList] = useState([]);
     const [weatherInfo, setWeatherInfo] = useState({});
 
 
-    function getKey() {
-        const lenght = WeatherFile.length
-        setUniqueKey(lenght)
-    };
     async function fetchWeather() {
 
 
@@ -63,7 +56,6 @@ export default function App(props) {
     }
     function getCity() {
         fetchWeather();
-        getKey()
         setInputText("");
     }
     function handleEnter(e) {
@@ -73,7 +65,6 @@ export default function App(props) {
     }
 
     function radioSelected(e) {
-        console.log(e.target.value);
         setMesureSystem(e.target.value)
     }
 
@@ -100,10 +91,10 @@ export default function App(props) {
 
                     weatherList.map(
 
-                        (item) => (
+                        (item, index) => (
 
                             <WeatherFile
-                                key={uniqueKey}
+                                key={index}
                                 id={item.index}
                                 city={item.city}
                                 main={item.main}
