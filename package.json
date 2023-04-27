@@ -24,8 +24,5 @@
   },
   "eslintConfig": {
     "extends": ".node_modules/standars/enlintrc.json"
-  },
-  "server": {
-    "open": "/index.html"
   }
 }
