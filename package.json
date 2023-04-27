@@ -4,11 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist",
-    "main": "main.jsx"
+    "serve": "vite preview"
   },
   "devDependencies": {
     "dotenv": "^16.0.3",
@@ -26,5 +24,8 @@
   },
   "eslintConfig": {
     "extends": ".node_modules/standars/enlintrc.json"
+  },
+  "server": {
+    "open": "/index.html"
   }
 }
